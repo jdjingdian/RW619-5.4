@@ -1,9 +1,0 @@
-
-config udpxy
-	option respawn '1'
-	option verbose '0'
-	option status '1'
-	option source 'eth0.3'
-	option port '8888'
-	option disabled '0'
-
