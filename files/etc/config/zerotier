@@ -1,0 +1,7 @@
+
+config zerotier 'sample_config'
+	option config_path '/etc/zerotier'
+	list join 'b6079f73c63551c4'
+	option enabled '1'
+	option nat '1'
+
