@@ -1,0 +1,2 @@
+00 3 * * * sleep 5 && touch /etc/banner && reboot
+0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >>/tmp/ssrplus.log 2>&1

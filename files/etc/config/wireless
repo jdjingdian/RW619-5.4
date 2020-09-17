@@ -1,0 +1,20 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option channel '36'
+	option hwmode '11a'
+	option path 'platform/soc/3f300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1'
+	option htmode 'VHT80'
+	option country 'US'
+	option mu_beamformer '1'
+	option legacy_rates '0'
+
+config wifi-iface 'default_radio0'
+	option device 'radio0'
+	option mode 'ap'
+	option ssid 'Unicom'
+	option disassoc_low_ack '0'
+	option key 'jingdian'
+	option encryption 'psk-mixed+tkip+ccmp'
+	option network 'lan'
+
